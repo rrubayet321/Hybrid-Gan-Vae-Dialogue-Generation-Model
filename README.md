@@ -9,18 +9,18 @@ A state-of-the-art deep learning system for generating high-quality, diverse, an
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 ### Core Architecture
-- ✅ **Hybrid GAN + VAE Model**: Combines Variational Autoencoder (VAE) for structured generation with Generative Adversarial Network (GAN) for quality control
-- ✅ **Separate Input Architecture**: Independent customer and agent encoders for role-specific linguistic pattern learning (**+329% BLEU-4 improvement**)
-- ✅ **22M Parameters**: Customer encoder (6.1M) + Agent encoder (6.1M) + Generator (5.4M) + Discriminator (1.5M)
+- **Hybrid GAN + VAE Model**: Combines Variational Autoencoder (VAE) for structured generation with Generative Adversarial Network (GAN) for quality control
+- **Separate Input Architecture**: Independent customer and agent encoders for role-specific linguistic pattern learning (**+329% BLEU-4 improvement**)
+- **22M Parameters**: Customer encoder (6.1M) + Agent encoder (6.1M) + Generator (5.4M) + Discriminator (1.5M)
 
 ### Advanced Features
-- 🎯 **Diversity Optimization**: Multi-layer diversity loss (distinct + repetition + entropy) reduces repetition from 98% → <2%
-- ⚖️ **Bias Mitigation**: Adversarial debiasing and fairness regularization ensure demographic parity
-- 🔍 **Explainability (XAI)**: SHAP-based word importance, attention visualization, and saliency maps
-- 📊 **Comprehensive Evaluation**: BLEU, ROUGE, Perplexity, Distinct-1/2, Repetition Rate
+- **Diversity Optimization**: Multi-layer diversity loss (distinct + repetition + entropy) reduces repetition from 98% → <2%
+- **Bias Mitigation**: Adversarial debiasing and fairness regularization ensure demographic parity
+- **Explainability (XAI)**: SHAP-based word importance, attention visualization, and saliency maps
+- **Comprehensive Evaluation**: BLEU, ROUGE, Perplexity, Distinct-1/2, Repetition Rate
 
 ### Performance Metrics
 | Metric | Baseline VAE | Hybrid (Combined) | **Hybrid (Separate)** ⭐ | Improvement |
@@ -34,7 +34,7 @@ A state-of-the-art deep learning system for generating high-quality, diverse, an
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── src/                          # Source code
@@ -113,7 +113,7 @@ A state-of-the-art deep learning system for generating high-quality, diverse, an
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -216,7 +216,7 @@ python src/evaluation/evaluation_metrics.py
 
 ---
 
-## 🎯 Key Innovations
+## Key Innovations
 
 ### 1. Separate Input Architecture ⭐
 
@@ -287,7 +287,7 @@ Agent Context    → Agent Encoder ────┘
 
 ---
 
-## 📊 Results
+## Results
 
 ### Model Comparison
 
@@ -432,7 +432,7 @@ See [requirements.txt](requirements.txt) for complete list.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our contributing guidelines:
 
@@ -459,7 +459,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions, issues, or collaboration opportunities:
 - **GitHub Issues**: [Create an issue](https://github.com/rrubayet321/Hybrid-Gan-Vae-Dialogue-Generation-Model/issues)
@@ -467,7 +467,7 @@ For questions, issues, or collaboration opportunities:
 
 ---
 
-## 📊 Citation
+## Citation
 
 If you use this work in your research, please cite:
 
@@ -482,12 +482,12 @@ If you use this work in your research, please cite:
 
 ---
 
-## 🌟 Star History
+## Star History
 
-If you find this project useful, please consider giving it a star! ⭐
+If you find this project useful, please consider giving it a star!
 
 ---
 
-**Built with ❤️ using TensorFlow and Keras**
+**Built with TensorFlow and Keras**
 
-**Status**: ✅ Production Ready | 📊 Well Documented | 🎯 High Performance | ⚖️ Fair & Explainable
+**Status**: Production Ready | Well Documented | High Performance | Fair & Explainable
