@@ -462,8 +462,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📧 Contact
 
 For questions, issues, or collaboration opportunities:
-- **GitHub Issues**: [Create an issue](https://github.com/yourusername/it-support-dialogue-generation/issues)
-- **Email**: your.email@example.com
+- **GitHub Issues**: [Create an issue](https://github.com/rrubayet321/Hybrid-Gan-Vae-Dialogue-Generation-Model/issues)
+- **Email**: rrubayet321@gmail.com
 
 ---
 
